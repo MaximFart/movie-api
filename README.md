@@ -2,7 +2,7 @@
 ### Проводник для запуска приложения
 
 #### База данных:
-1. Доступ к базе данных: http://localhost:8080/movie-api/h2-console (data source: user = "sa", password =)
+1. Доступ к базе данных: http://localhost:8080/movie-api/h2-console (data source: user = "sa", password =, url=jdbc:h2:mem:movieDB)
 #### Terminal:
 1. mvn package
 2. cd target
