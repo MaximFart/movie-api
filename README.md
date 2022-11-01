@@ -1,9 +1,9 @@
 # movie-api
 ### Проводник для запуска приложения
 
-#### База данных:
+### База данных:
 1. Доступ к базе данных: http://localhost:8080/movie-api/h2-console (data source: user = "sa", password =)
-#### Terminal:
+### Terminal:
 1. mvn package
 2. cd target
 3. java -jar core-api-1.0-SNAPSHOT.jar
