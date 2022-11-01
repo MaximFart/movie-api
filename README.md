@@ -6,7 +6,7 @@
 #### Terminal:
 1. mvn package
 2. cd target
-3. java -jar core-api-1.0-SNAPSHOT.jar
+3. java -jar movie-api-1.0-SNAPSHOT.jar
 
 #### Logging:
 1. В консоль
@@ -15,6 +15,6 @@
 #### Http:
 1. Путь к запросам:
    * movie-api/http/films/request_for_films.http
-   * movie-api\http\utils\request_swagger-ui.http
-   * movie-api\http\utils\request_actuator_health.http
+   * movie-api/http/utils/request_swagger-ui.http
+   * movie-api/http/utils/request_actuator_health.http
    
