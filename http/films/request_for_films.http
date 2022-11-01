@@ -1,0 +1,44 @@
+POST http://localhost:8080/movie-api/films/list
+Content-Type: application/json
+
+[
+  {
+    "dateRelease": "2020-03-24",
+    "description": "film",
+    "name": "Bond",
+    "style": "shouter",
+    "type": "SHORT"
+  },
+  {
+    "dateRelease": "2020-03-24",
+    "description": "film",
+    "name": "Bond",
+    "style": "shouter",
+    "type": "SHORT"
+  }
+]
+
+###
+
+POST http://localhost:8080/movie-api/films
+Content-Type: application/json
+
+{
+     "dateRelease": "2019-10-18",
+     "description": "film",
+     "name": "Bond",
+     "style": "shouter",
+     "type": "SHORT"
+}
+
+###
+
+GET http://localhost:8080/movie-api/films/name/Bond?page=0&size=5
+
+###
+
+GET http://localhost:8080/movie-api/films/type/SERIAL?page=0&size=5
+
+###
+
+GET http://localhost:8080/movie-api/films/date_release?date=2019-10-18&page=0&size=5

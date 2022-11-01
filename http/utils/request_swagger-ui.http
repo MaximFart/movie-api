@@ -1,0 +1,3 @@
+### Tap show context actions(Alt + Enter) -> Open in Browser
+
+GET http://localhost:8080/movie-api/swagger-ui.html

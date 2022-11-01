@@ -1,0 +1,10 @@
+insert into films (date_release, description, name, style, types) values ('2017-12-20', 'film great', 'Bond', 'action movie', 'SERIAL');
+insert into films (date_release, description, name, style, types) values ('2016-11-18', 'film great', 'Bond', 'comedy', 'FULL_LENGTH');
+insert into films (date_release, description, name, style, types) values ('2016-11-18', 'film great', 'Karlson', 'comedy', 'FULL_LENGTH');
+insert into films (date_release, description, name, style, types) values ('2016-11-18', 'film great', 'Aquaman', 'comedy', 'FULL_LENGTH');
+insert into films (date_release, description, name, style, types) values ('2020-05-20', 'film great', 'Sherlock', 'detective', 'SERIAL');
+insert into films (date_release, description, name, style, types) values ('2020-05-20', 'film great', 'Sherlock', 'detective', 'FULL_LENGTH');
+insert into films (date_release, description, name, style, types) values ('2020-05-20', 'film great', 'Friends', 'comedy', 'SERIAL');
+insert into films (date_release, description, name, style, types) values ('2019-10-18', 'film great', 'Shameless', 'comedy', 'SERIAL');
+insert into films (date_release, description, name, style, types) values ('2019-10-18', 'film great', 'Flash', 'comedy', 'SERIAL');
+insert into films (date_release, description, name, style, types) values ('2019-10-18', 'film great', 'Money Heist', 'detective', 'SERIAL');
